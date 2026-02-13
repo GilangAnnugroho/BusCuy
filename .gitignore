@@ -1,0 +1,59 @@
+# MISCELLANEOUS & OS
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+Thumbs.db
+ehthumbs.db
+
+# IDE / EDITOR SETTINGS
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+.history/
+
+# FLUTTER / DART / PUB
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# ANDROID SPECIFIC
+android/local.properties
+android/.gradle
+android/app/debug
+android/app/profile
+android/app/release
+
+# SECURITY: SIGNING KEYS (SANGAT PENTING)
+android/*.jks
+android/*.keystore
+android/key.properties
+
+# IOS SPECIFIC
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/.symlinks/
+ios/Pods/
+
+# WEB & MACOS
+lib/generated_plugin_registrant.dart
+macos/Flutter/Generated.xcconfig
+macos/Flutter/ephemeral
+
+# ENVIRONMENT VARIABLES
+.env
+.env.*
+!.env.example
